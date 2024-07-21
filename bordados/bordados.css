@@ -54,6 +54,11 @@ header{
      height: 160%; 
  }
 
+ .imagem-bordados {
+   width: 1600px;
+  height: 470px;
+ }
+
  .retangulo {
     display: flex;
     flex-direction: column;
