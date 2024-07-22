@@ -59,25 +59,79 @@ header{
   height: 470px;
  }
 
+ .container-bordados{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+
+ .container-bordados h1 {
+   font-size: 60px;
+  color: #363131;
+  font-family: "Concert One", sans-serif;
+  padding: 75px 0 0 0;
+ }
+
+ .container-bordados p {
+   font-size: 25px;
+  font-family: "Source Serif 4", serif;
+  color: #221F1F;
+  padding: 20px 170px 100px 170px ;
+  text-align: justify;
+ }
+
+ .container-retangulos {
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-between;
+   padding: 20px 100px;
+   
+}
+
  .retangulo {
     display: flex;
+    flex-wrap: wrap;
     flex-direction: column;
-    width: 370px;
-    height: 370px;
+    width: 200px;
+    height: 350px;
     background-color: #FDD2D2;
-    display: flex;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     border-radius: 5px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 0 1 calc(28.33% - 20px);
+    margin: 10px;
+    box-sizing: border-box;
+    
+}
+
+.retangulo img {
+   border-radius: 10px;
+   
 }
 
 .texto {
     color: #221F1F;
-    font-size: 25px;
+    font-size: 33px;
     font-weight: bold;
     text-align: center;
     margin: 0;
+    color: #363131;
+    font-family: "Concert One", sans-serif;
+}
+
+.retangulo a {
+   display: inline-block;
+  padding: 15px 50px 15px 50px;
+  background-color: #E05E5E;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 20px;
+  font-size: 27px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+  font-family: "Concert One", sans-serif;
 }
 
  footer {
