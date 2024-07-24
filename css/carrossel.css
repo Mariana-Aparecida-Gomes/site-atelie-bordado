@@ -14,7 +14,7 @@ section.slider {
    
 }
 
-.slider-content input {
+.slider-content input, .img-mobile {
     display: none;
 }
 
@@ -28,19 +28,17 @@ section.slider {
 }
 
 .slide-box img {
-    padding: 30px;
-    width: 1200px;
-    height: 467px; 
-    
+    width: 100%;
 }
+
 
 .nav-manual, .nav-auto {
     display: flex;
     position: absolute;
     width: 100%;
-    margin-top: 35%;
+    margin-top: 47%;
     justify-content: center;
-    margin-top: 515px;
+    
 }
 
 .nav-manual .manual-btn, .nav-auto div{
@@ -91,3 +89,16 @@ section.slider {
     margin-left: -75%;
 }
 
+@media screen and (max-width: 768px) {
+    .img-desktop {
+        display: none;
+    }
+
+    .img-mobile {
+        display: block;
+    }
+
+    .nav-auto, .nav-manual {
+        margin-top: 60%;
+    }
+}

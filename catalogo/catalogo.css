@@ -54,8 +54,8 @@ nav {
 }
 
 .imagem-catalogo {
-  width: 1600px;
-  height: 470px;
+  width: 100%;
+  height: 70vh;
 }
 
 .container-catalogo {
@@ -84,6 +84,26 @@ nav {
   justify-content: center;
   align-items: center;
   padding: 20px 0 100px 0;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  /* top: 20px; */
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 25px;
+  background: black;
+  margin: 4px;
+  transition: 0.3s;
 }
 
 footer {
@@ -194,6 +214,15 @@ span {
 
   .links-header.active {
     display: flex;
+  }
+
+  .imagem-catalogo {
+    width: 100%;
+    height: 70vh;
+  }
+
+  .catalogo-imagem img {
+    width: 100%;
   }
 
   .footer-content {

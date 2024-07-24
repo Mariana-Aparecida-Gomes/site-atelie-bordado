@@ -55,8 +55,8 @@ header{
  }
 
  .imagem-bordados {
-   width: 1600px;
-  height: 470px;
+   width: 100%;
+  height: 70vh
  }
 
  .container-bordados{
@@ -133,6 +133,26 @@ header{
   transition: background-color 0.3s ease;
   font-family: "Concert One", sans-serif;
 }
+
+.hamburger {
+   display: none;
+   flex-direction: column;
+   cursor: pointer;
+   position: absolute;
+   right: 20px;
+   /* top: 20px; */
+   z-index: 3;
+   align-items: center;
+   justify-content: center;
+ }
+ 
+ .hamburger span {
+   height: 4px;
+   width: 25px;
+   background: black;
+   margin: 4px;
+   transition: 0.3s;
+ }
 
  footer {
     background-color:  #F1BABA;
@@ -242,6 +262,41 @@ span{
 
    .links-header.active {
        display: flex;
+   }
+
+   .imagem-bordados {
+      width: 100%;
+     height: 30vh
+    }
+
+    .container-bordados h1 {
+      display: flex;
+      flex-wrap: wrap;
+      font-size: 30px;
+    }
+
+    .container-bordados p {
+      width: 100%;
+      flex-wrap: wrap;
+      font-size: 16px;
+      text-align: center;
+    }
+
+    .container-retangulos {
+      flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .retangulo {
+      width: 600px;
+    height: 350px;
+    }
+
+    .retangulo img {
+      width: 100%;
+      border-radius: 10px;
+      
    }
 
    .footer-content {

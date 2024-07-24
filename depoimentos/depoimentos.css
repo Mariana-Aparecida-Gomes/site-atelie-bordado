@@ -67,8 +67,8 @@ header{
  }
 
  .imagem-depoimentos {
-   width: 1600px;
-   height: 450px;
+   width: 100%;
+   height: 70vh;
  }
 
  .retangulos-depoimentos {
@@ -110,6 +110,26 @@ header{
     margin: 0;
     color: #363131;
     font-family: "Concert One", sans-serif;
+}
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  /* top: 20px; */
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 25px;
+  background: black;
+  margin: 4px;
+  transition: 0.3s;
 }
 
 
@@ -225,6 +245,31 @@ span{
    .links-header.active {
      display: flex;
    }
+
+   .imagem-depoimentos {
+    width: 100%;
+    height: 30vh;
+  }
+
+
+  .retangulos-depoimentos {
+    flex-direction: row; 
+        flex-wrap: wrap;
+        justify-content: center;
+  }
+
+  .retangulo {
+    width: 800px;
+    height: 300px;
+  }
+
+  .retangulo h2 {
+    font-size: 16px;
+}
+
+.retangulo p {
+    font-size: 14px;
+}
  
    .footer-content {
      flex-direction: column;

@@ -1,163 +1,153 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Ateliê Mari&Art</title>
-    <link rel="stylesheet" href="css/index.css" />
-    <link rel="stylesheet" href="css/reset.css" />
-    <link rel="stylesheet" href="css/carrossel.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Concert+One&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
-      rel="stylesheet"
-    />
-    <script src="carrossel.js" defer></script>
-  </head>
-  <body>
-    <header>
-      <img id="logo" src="img/Logo_UM_Preto.png" />
-      <nav>
-        <ul class="links-header">
-          <li><a href="index.html">Home</a></li>
-          <li><a href="bordados/bordados.html">Bordados</a></li>
-          <li><a href="catalogo/catalogo.html">Catálogo</a></li>
-          <li><a href="depoimentos/depoimentos.html">Depoimentos</a></li>
-        </ul>
-        <div class="hamburger" id="hamburger">
-          <span></span>
-          <span></span>
-          <span></span>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ateliê Mari&Art</title>
+  <link rel="stylesheet" href="css/index.css" />
+  <link rel="stylesheet" href="css/reset.css" />
+  <link rel="stylesheet" href="css/carrossel.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Concert+One&family=Source+Serif+4:ital,opsz,wght@0,8..60,200..900;1,8..60,200..900&display=swap"
+    rel="stylesheet" />
+  <script src="carrossel.js" defer></script>
+</head>
+
+<body>
+  <header>
+    <img id="logo" src="img/Logo_UM_Preto.png" />
+    <nav>
+      <ul class="links-header">
+        <li><a href="index.html">Home</a></li>
+        <li><a href="bordados/bordados.html">Bordados</a></li>
+        <li><a href="catalogo/catalogo.html">Catálogo</a></li>
+        <li><a href="depoimentos/depoimentos.html">Depoimentos</a></li>
+      </ul>
+      <div class="hamburger" id="hamburger">
+        <span></span>
+        <span></span>
+        <span></span>
       </div>
-      </nav>
-    </header>
+    </nav>
+  </header>
 
-    <section class="slider">
-      <div class="slider-content">
-        <input type="radio" name="btn-radio" id="radio1" />
-        <input type="radio" name="btn-radio" id="radio2" />
-        <input type="radio" name="btn-radio" id="radio3" />
-        <input type="radio" name="btn-radio" id="radio4" />
+  <section class="slider">
+    <div class="slider-content">
+      <input type="radio" name="btn-radio" id="radio1" />
+      <input type="radio" name="btn-radio" id="radio2" />
+      <input type="radio" name="btn-radio" id="radio3" />
+      <input type="radio" name="btn-radio" id="radio4" />
 
-        <div class="slide-box primeiro">
-          <img
-            class="img-desktop"
-            src="img/bastidor.jpg"
-            alt="Bordado em Bastidor"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img
-            class="img-desktop"
-            src="img/pontoOitinho.jpg"
-            alt="Bordado em Ponto Oitinho"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img
-            class="img-desktop"
-            src="img/vagonite.jpg"
-            alt="Bordado Vagonite"
-          />
-        </div>
-
-        <div class="slide-box">
-          <img
-            class="img-desktop"
-            src="img/pontoCruz.jpg"
-            alt="Bordado em Ponto Cruz"
-          />
-        </div>
-
-        <div class="nav-auto">
-          <div class="auto-btn1"></div>
-          <div class="auto-btn2"></div>
-          <div class="auto-btn3"></div>
-          <div class="auto-btn4"></div>
-        </div>
-
-        <div class="nav-manual">
-          <label for="bordadosBastidor" class="manual-btn"></label>
-          <label for="pontoOitinho" class="manual-btn"></label>
-          <label for="vagonite" class="manual-btn"></label>
-          <label for="pontoCruz" class="manual-btn"></label>
-        </div>
-      </div>
-    </section>
-
-    <section class="conteudo-principal">
-      <div id="conteudo-atelie">
-        <div class="imagem-atelie">
-          <img
-            src="img/Logo_TRES_fundodois.png"
-            alt="Imagem da Logo do Ateliê"
-          />
-        </div>
-        <div id="texto-atelie">
-          <h1 class="titulo-atelie">Sobre o Ateliê</h1>
-          <p>
-            No Ateliê Mari&Art, transformamos linhas e tecidos em verdadeiras
-            obras de arte. Especializados em bordados personalizados, cada peça
-            é cuidadosamente criada para refletir a beleza e a singularidade de
-            cada cliente. Com técnicas tradicionais e um toque moderno,
-            oferecemos produtos exclusivos, desde enxovais e acessórios até
-            presentes especiais que encantam e emocionam. Nossa missão é trazer
-            mais cor e delicadeza ao seu dia a dia, através da arte do bordado.
-            Venha conhecer nosso trabalho e se encantar com a magia dos
-            detalhes!
-          </p>
-        </div>
+      <div class="slide-box primeiro">
+        <img class="img-desktop" src="img/bastidor.jpg" alt="Bordado em Bastidor" />
+        <img class="img-mobile" src="img/bastidor-mob.jpg" alt="Bordado bastidor mobile">
       </div>
 
-      <div id="conteudo-artesa">
-        <div id="texto-artesa">
-          <h1 class="titulo-artesa">Sobre a Artesã</h1>
-          <p>
-            Olá! Sou Mariana, a criadora por trás do Ateliê Mari&Art. Com 28
-            anos, sou apaixonada por gatos, pelo meu namorado, animes, jogos, kpop, doramas e, claro, pelo
-            maravilhoso mundo dos bordados. Desde cedo, descobri minha paixão
-            por transformar simples tecidos em obras de arte únicas e cheias de
-            significado. Cada ponto bordado é feito com amor e dedicação,
-            refletindo minha personalidade criativa e detalhista. No meu ateliê,
-            busco unir a tradição do bordado com inspirações modernas, criando
-            peças que contam histórias e encantam. Venha conhecer meu trabalho e
-            compartilhar dessa paixão comigo!
-          </p>
-        </div>
-
-        <div class="imagem-artesa">
-          <img src="img/artesã.jpg" alt="Foto da Artesã" />
-        </div>
+      <div class="slide-box">
+        <img class="img-desktop" src="img/pontoOitinho.jpg" alt="Bordado em Ponto Oitinho" />
+        <img class="img-mobile" src="img/pontoOitinho-mob.jpg" alt="Bordado em ponto oitinho mobile">
       </div>
-    </section>
 
-    <footer>
-        <div class="redes-sociais">
-            <a href="https://www.facebook.com/profile.php?id=100087640574123" target="_blank"><img src="img/Facebook.png" alt="Logo Facebook" width="70px"></a>
-            <a href="https://www.instagram.com/atelie_marieart/" target="_blank"><img src="img/Instagram.png" alt="Logo Instagram" width="70px"></a>
-            <a href="https://www.youtube.com/channel/UCsINQtnCiwtUGzdP0B7_Yuw" target="_blank"><img src="img/Youtube.png" alt="Logo Youtube" width="70px"></a>
-            <a href="https://maps.app.goo.gl/TwC95j92eekrwCvm9" target="_blank"><img src="img/Google.png" alt="Logo Google+" width="70px"></a>
-        </div>
-        <ul class="links">
-            <li><a href="index.html">Home</a></li>
-            <li><a href="contato/contato.html">Contato</a></li>
-            <li><a href="catalogo/catalogo.html">Catálogo</a></li>
-        </ul>
-    </footer>
-    
-    <div class="footer-span">
-      <span>Copyright ©️2024;</span>
-      <span>Designed by Mariana Gomes</span>
+      <div class="slide-box">
+        <img class="img-desktop" src="img/vagonite.jpg" alt="Bordado Vagonite" />
+        <img class="img-mobile" src="img/vagonite-mob.jpg" alt="Bordado vagonite mobile">
+      </div>
+
+      <div class="slide-box">
+        <img class="img-desktop" src="img/pontoCruz.jpg" alt="Bordado em Ponto Cruz" />
+        <img class="img-mobile" src="/img/pontoCruz-mob.jpg" alt="Bordado em ponto cruz mobile">
+      </div>
+
+      <div class="nav-auto">
+        <div class="auto-btn1"></div>
+        <div class="auto-btn2"></div>
+        <div class="auto-btn3"></div>
+        <div class="auto-btn4"></div>
+      </div>
+
+      <div class="nav-manual">
+        <label for="bordadosBastidor" class="manual-btn"></label>
+        <label for="pontoOitinho" class="manual-btn"></label>
+        <label for="vagonite" class="manual-btn"></label>
+        <label for="pontoCruz" class="manual-btn"></label>
+      </div>
     </div>
-    <script src="/responsivo.js"></script>
-  </body>
+  </section>
+
+  <section class="conteudo-principal">
+    <div id="conteudo-atelie">
+      <div class="imagem-atelie">
+        <img src="img/Logo_TRES_fundodois.png" alt="Imagem da Logo do Ateliê" />
+      </div>
+      <div id="texto-atelie">
+        <h1 class="titulo-atelie">Sobre o Ateliê</h1>
+        <p>
+          No Ateliê Mari&Art, transformamos linhas e tecidos em verdadeiras
+          obras de arte. Especializados em bordados personalizados, cada peça
+          é cuidadosamente criada para refletir a beleza e a singularidade de
+          cada cliente. Com técnicas tradicionais e um toque moderno,
+          oferecemos produtos exclusivos, desde enxovais e acessórios até
+          presentes especiais que encantam e emocionam. Nossa missão é trazer
+          mais cor e delicadeza ao seu dia a dia, através da arte do bordado.
+          Venha conhecer nosso trabalho e se encantar com a magia dos
+          detalhes!
+        </p>
+      </div>
+    </div>
+
+    <div id="conteudo-artesa">
+      <div id="texto-artesa">
+        <h1 class="titulo-artesa">Sobre a Artesã</h1>
+        <p>
+          Olá! Sou Mariana, a criadora por trás do Ateliê Mari&Art. Com 28
+          anos, sou apaixonada por gatos, pelo meu namorado, animes, jogos, kpop, doramas e, claro, pelo
+          maravilhoso mundo dos bordados. Desde cedo, descobri minha paixão
+          por transformar simples tecidos em obras de arte únicas e cheias de
+          significado. Cada ponto bordado é feito com amor e dedicação,
+          refletindo minha personalidade criativa e detalhista. No meu ateliê,
+          busco unir a tradição do bordado com inspirações modernas, criando
+          peças que contam histórias e encantam. Venha conhecer meu trabalho e
+          compartilhar dessa paixão comigo!
+        </p>
+      </div>
+
+      <div class="imagem-artesa">
+        <img src="img/artesã.jpg" alt="Foto da Artesã" />
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="redes-sociais">
+      <a href="https://www.facebook.com/profile.php?id=100087640574123" target="_blank"><img src="img/Facebook.png"
+          alt="Logo Facebook" width="70px"></a>
+      <a href="https://www.instagram.com/atelie_marieart/" target="_blank"><img src="img/Instagram.png"
+          alt="Logo Instagram" width="70px"></a>
+      <a href="https://www.youtube.com/channel/UCsINQtnCiwtUGzdP0B7_Yuw" target="_blank"><img src="img/Youtube.png"
+          alt="Logo Youtube" width="70px"></a>
+      <a href="https://maps.app.goo.gl/TwC95j92eekrwCvm9" target="_blank"><img src="img/Google.png" alt="Logo Google+"
+          width="70px"></a>
+    </div>
+    <ul class="links">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="contato/contato.html">Contato</a></li>
+      <li><a href="catalogo/catalogo.html">Catálogo</a></li>
+    </ul>
+  </footer>
+
+  <div class="footer-span">
+    <span>Copyright ©️2024;</span>
+    <span>Designed by Mariana Gomes</span>
+  </div>
+  <script src="/responsivo.js"></script>
+</body>
+
 </html>

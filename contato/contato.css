@@ -54,8 +54,8 @@ nav {
 }
 
 .imagem-contatos {
-  width: 1600px;
-  height: 470px;
+  width: 100%;
+  height: 70vh
 }
 
 .titulo-contatos {
@@ -76,8 +76,7 @@ nav {
 }
 
 .container img {
-  width: 100px;
-  height: 100px;
+  width: 30vh;
 }
 
 .container h2 {
@@ -120,6 +119,27 @@ nav {
 .container-contatos h3 {
   margin: 10px 0;
 }
+
+.hamburger {
+  display: none;
+  flex-direction: column;
+  cursor: pointer;
+  position: absolute;
+  right: 20px;
+  /* top: 20px; */
+  z-index: 3;
+  align-items: center;
+  justify-content: center;
+}
+
+.hamburger span {
+  height: 4px;
+  width: 25px;
+  background: black;
+  margin: 4px;
+  transition: 0.3s;
+}
+
 
 footer {
   background-color: #f1baba;
@@ -229,6 +249,33 @@ span {
 
   .links-header.active {
     display: flex;
+  }
+
+  .imagem-contatos {
+    max-width: 100%;
+    height: 30vh;
+  }
+
+  .container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+    
+  .container img {
+    margin-bottom: 20px;
+  }
+  
+  .container h2 {
+    font-size: 28px;
+  }
+  
+  .container p {
+    font-size: 20px;
+  }
+  
+  .container h3 {
+    font-size: 18px;
   }
 
   .footer-content {
