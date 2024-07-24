@@ -4,12 +4,14 @@ section.slider {
     height: auto;
     padding: 0 in !important;
     overflow: hidden;
+    
 }
 
 .slider-content {
     width: 400%;
     height: auto;
     display: flex;
+   
 }
 
 .slider-content input {
@@ -22,12 +24,14 @@ section.slider {
     position: relative;
     text-align: center;
     transition: 1s;
+    z-index: -2; 
 }
 
 .slide-box img {
     padding: 30px;
     width: 1200px;
-    height: 467px;  
+    height: 467px; 
+    
 }
 
 .nav-manual, .nav-auto {

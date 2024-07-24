@@ -193,3 +193,51 @@ span {
   align-items: center;
   background-color: #ed7e7e;
 }
+
+@media (max-width: 768px) {
+  .links-header {
+    display: none;
+    flex-direction: column;
+    width: 100%;
+    position: absolute;
+    top: 115px;
+    left: 0;
+    background-color: #f2cbcb;
+  }
+
+  .links-header li {
+    width: 100%;
+    text-align: center;
+    margin: 10px 0;
+  }
+
+  .hamburger {
+    display: flex;
+  }
+
+  .hamburger.active span:nth-child(1) {
+    transform: rotate(-45deg) translate(-5px, 6px);
+  }
+
+  .hamburger.active span:nth-child(2) {
+    opacity: 0;
+  }
+
+  .hamburger.active span:nth-child(3) {
+    transform: rotate(45deg) translate(-5px, -6px);
+  }
+
+  .links-header.active {
+    display: flex;
+  }
+
+  .footer-content {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .footer-section {
+    text-align: center;
+    margin: 10px 0;
+  }
+}
