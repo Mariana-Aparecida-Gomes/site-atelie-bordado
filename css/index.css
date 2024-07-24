@@ -206,7 +206,6 @@ span{
    cursor: pointer;
    position: absolute;
    right: 20px;
-   /* top: 20px; */
    z-index: 3;
    align-items: center;
    justify-content: center;
